@@ -1,0 +1,117 @@
+.container {
+    width: 57%;
+    border: 1px solid turquoise;
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+    background: linear-gradient(
+      109.6deg,
+      rgb(185, 212, 242) 11.2%,
+      rgb(244, 210, 226) 100.3%
+    );
+  }
+  .form-control {
+    display: inline-block;
+    border-radius: 6px;
+    color: rgba(39,33,66,.4);
+    font-size: 16px;
+    background:#e7eaf6;
+    
+}
+  
+  #search-button
+  {
+   margin-left: 10px;
+   border-radius: 6px;
+   background:rgb(185, 212, 242);
+}
+.form-control,
+#search-button {
+    padding: 15px 20px;
+    height: 50px;
+    line-height: 20px;
+    border:none;
+}
+.weather-description{
+    text-transform: capitalize;
+}
+.weather-description,
+  .date-information{
+    margin-left: 18px;
+  }
+  .main-temperature, .unit {
+    margin-top: 90px;
+  }
+  h5 {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+  .humidity, .wind {
+    margin-left: 25px;
+  }
+  .open-source-code{
+    margin-left: 430px;
+  }
+
+  .weather-temperature .active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+  }
+  
+  #celsius-link:hover {
+    text-decoration: none;
+  }
+
+  .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+  }
+  
+  .weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+  
+  .weather-forecast-temperature-min {
+    opacity: 0.5;
+  }
+  
+  .weather-forecast-temperatures {
+    font-size: 13px;
+  }
+  .box {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .days {
+    border: 2px solid #b1d5f8;
+    width: 7.125rem;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+  .days :nth-child(1) {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .days:hover {
+    background-color: rgba(183, 228, 250, 0.5);
+  }
+  .info {
+    display: flex;
+  }
+  .info :nth-child(2) {
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+  #github-link {
+    margin-left: 308px;
+  }
